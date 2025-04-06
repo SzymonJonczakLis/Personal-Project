@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5881059567933171028}
   - component: {fileID: 8285476856234004354}
   - component: {fileID: 6262681683163494211}
+  - component: {fileID: -7704914645665209467}
+  - component: {fileID: 2484899412321290112}
   m_Layer: 0
   m_Name: Goblin
   m_TagString: Untagged
@@ -110,3 +112,49 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-7704914645665209467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4098106403897543592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acbe83af5f748444aad1cbb485bef47d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1895168837094957356, guid: 1c9b35ff05a390844a91ecb17b6ae2d3, type: 3}
+  fieldOfView: 20
+  moveSpeed: 0
+  groundDrag: 0
+  whatToSee:
+    serializedVersion: 2
+    m_Bits: 1089
+--- !u!54 &2484899412321290112
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4098106403897543592}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 0
