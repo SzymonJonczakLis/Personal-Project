@@ -126,6 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1895168837094957356, guid: 1c9b35ff05a390844a91ecb17b6ae2d3, type: 3}
   fieldOfView: 20
+  searchRadius: 1
   moveSpeed: 0
   groundDrag: 0
   whatToSee:
